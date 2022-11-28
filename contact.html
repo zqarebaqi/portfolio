@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>zahra's Portfolio</title>
+    <meta
+      name="description"
+      content="Contact zahra. zahra is a front-end engineer based in Iran. "
+    />
+    <title>Contact zahra - zahra qarebaqi</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
@@ -30,6 +34,36 @@
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Patricia Logo"
+          />
+          <img
+            src="images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="Patricia Logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Patricia"> About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Patricia's work"> Work</a>
+          </li>
+          <li class="active">
+            <a href="/contact.html" title="Contact Patricia"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Let's get in touch!</h1>
@@ -39,17 +73,72 @@
         </p>
         <h3>Twitter</h3>
         <p>
-          <a href="https://www.twitter.com/iamsemicolon" target="_blank">
-            @iamsemicolon
+          <a href="https://www.twitter.com/patricia" target="_blank">
+            @zqarebaqi
           </a>
         </p>
         <h3>Instagram</h3>
         <p>
-          <a href="https://www.instagram.com/zqarebaqi" target="_blank">
-            @zqarebaqi
+          <a href="https://www.instagram.com/patricia.codes" target="_blank">
+            zqarebaqi
           </a>
         </p>
       </div>
     </div>
+    <footer class="container">
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact zahra"
+          >
+            Contact me
+          </a>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:zqarebaqi@gmail.com"
+          class="email-link"
+          title="Email Patricia"
+        >
+          zqarebaqi@gmail.com
+        </a>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://www.github.com/zqarebaqi"
+          target="_blank"
+          title="GitHub Profile"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+        <a
+          href="https://www.instragram.com/zqarebaqi"
+          target="_blank"
+          title="instragram Profile"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a
+          href="https://www.twitter.com/iamsemicolon"
+          target="_blank"
+          title="Twitter Profile"
+        >
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+      <p class="text-center mt-5">
+        ✌️ This website was coded by zqarebaqi, and is
+        <a href="https://github.com/zqarebaqi/portfolio" target="_blank">
+          open-sourced
+        </a>
+      </p>
+    </footer>
   </body>
 </html>
